@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/allback"
+    >
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+
+		<ScrollView
+		    android:id="@+id/scrollView2"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent" >
+			 <ListView
+		            android:id="@+id/listView3"
+		            android:layout_width="match_parent"
+		            android:layout_height="131dp" >
+
+		        </ListView>
+
+		    </LinearLayout>
+		</ScrollView>
+
+		
+	    <TextView
+	        android:id="@+id/tvlabel1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:text="Question:"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <TextView
+	        android:id="@+id/tvquestion1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:text=""
+	        android:inputType="textLongMessage"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <EditText
+	        android:id="@+id/etanswer1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginTop="15dp"
+	        android:ems="10"
+	        android:hint="Type Answer:"
+	        android:inputType="textMultiLine" >
+
+	        <requestFocus />
+	    </EditText>
+
+	    <EditText
+	        android:id="@+id/etfilename1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginTop="15dp"
+	        android:ems="10"
+	        android:hint="File Name:" />
+
+	    <Button
+	        android:id="@+id/bsendanswer1"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginTop="15dp"
+	        android:text="Save/Send Answer" />
+
+	    <TextView
+	        android:id="@+id/tvmac1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="" />
+	    
+	</LinearLayout>
+    
+
+</LinearLayout>

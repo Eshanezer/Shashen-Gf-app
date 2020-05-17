@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Application Info:
+            This application was built as a final year project by 4th year students of Sri Lankan Institute OF Information Technology (SLIIT), 2013
+"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+                      
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
